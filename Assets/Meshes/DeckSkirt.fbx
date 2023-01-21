@@ -1,0 +1,143 @@
+; FBX 6.1.0 project file
+; http://pinwheel.studio
+; ----------
+FBXHeaderExtension: {
+	FBXHeaderVersion: 1003
+	FBXVersion: 6100
+	Creator: "Pinwheel Studio"
+	CreationTimeStamp: {
+		Version: 1000
+		Year: 2022
+		Month: 10
+		Day: 19
+		Hour: 11
+		Minute: 4
+		Second: 24
+		Millisecond: 70
+	}
+	OtherFlags: {
+		FlagPLE: 0
+	}
+}
+; Object definition
+; ----------
+Definitions: {
+	Version: 100
+	Count: 3
+	ObjectType: "Model" {
+		Count: 1
+	}
+	ObjectType: "Geometry" {
+		Count: 1
+	}
+	ObjectType: "Material" {
+		Count: 1
+	}
+	ObjectType: "Texture" {
+		Count: 1
+	}
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+}
+; Objects information
+; ----------
+Objects: {
+	Model: "Model::FlexiblePlayingCards/Meshes/DeckSkirt", "Mesh" {
+		Version: 232
+		MultiLayer: 0
+		Shading: Y
+		Culling: "Culling Off"
+		Vertices: -0.03175,-0.04191,0 ,-0.03175,-0.04191,0.01 ,-0.0315567,-0.042882,0.01 ,-0.0315567,-0.042882,0 ,-0.0310061,-0.0437061,0.01 ,-0.0310061,-0.0437061,0 ,-0.030182,-0.0442567,0.01 ,-0.030182,-0.0442567,0 ,-0.02921,-0.04445,0.01 ,-0.02921,-0.04445,0 ,0.02921,-0.04445,0.01 ,0.02921,-0.04445,0 ,0.030182,-0.0442567,0.01 ,0.030182,-0.0442567,0 ,0.0310061,-0.0437061,0.01 ,0.0310061,-0.0437061,0 ,0.0315567,-0.042882,0.01 ,0.0315567,-0.042882,0 ,0.03175,-0.04191,0.01 ,0.03175,-0.04191,0 ,0.03175,0.04191,0.01 ,0.03175,0.04191,0 ,0.0315567,0.042882,0.01 ,0.0315567,0.042882,0 ,0.0310061,0.0437061,0.01 ,0.0310061,0.0437061,0 ,0.030182,0.0442567,0.01 ,0.030182,0.0442567,0 ,0.02921,0.04445,0.01 ,0.02921,0.04445,0 ,-0.02921,0.04445,0.01 ,-0.02921,0.04445,0 ,-0.030182,0.0442567,0.01 ,-0.030182,0.0442567,0 ,-0.0310061,0.0437061,0.01 ,-0.0310061,0.0437061,0 ,-0.0315567,0.042882,0.01 ,-0.0315567,0.042882,0 ,-0.03175,0.04191,0.01 ,-0.03175,0.04191,0 ,-0.03175,0.04191,0 ,-0.03175,0.04191,0.01 ,-0.03175,-0.04191,0.01 ,-0.03175,-0.04191,0
+		PolygonVertexIndex: 2,1,-1,3,2,-1,4,2,-4,5,4,-4,6,4,-6,7,6,-6,8,6,-8,9,8,-8,10,8,-10,11,10,-10,12,10,-12,13,12,-12,14,12,-14,15,14,-14,16,14,-16,17,16,-16,18,16,-18,19,18,-18,20,18,-20,21,20,-20,22,20,-22,23,22,-22,24,22,-24,25,24,-24,26,24,-26,27,26,-26,28,26,-28,29,28,-28,30,28,-30,31,30,-30,32,30,-32,33,32,-32,34,32,-34,35,34,-34,36,34,-36,37,36,-36,38,36,-38,39,38,-38,42,41,-41,43,42,-41
+		GeometryVersion: 124
+		Properties60: {
+			Property: "Lcl Translation", "Lcl Translation", "A",0,0,0
+			Property: "Lcl Rotation", "Lcl Rotation", "A",0,0,0
+			Property: "Lcl Scaling", "Lcl Scaling", "A",1,1,1
+		}
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByVertice"
+			ReferenceInformationType: "Direct"
+			Normals: -1,0,0,-1,0,0,-0.9238797,-0.3826829,0,-0.9238797,-0.3826829,0,-0.7071068,-0.7071068,0,-0.7071068,-0.7071068,0,-0.3826829,-0.9238797,0,-0.3826829,-0.9238797,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0.3826829,-0.9238797,0,0.3826829,-0.9238797,0,0.7071068,-0.7071068,0,0.7071068,-0.7071068,0,0.9238797,-0.3826829,0,0.9238797,-0.3826829,0,1,0,0,1,0,0,1,0,0,1,0,0,0.9238797,0.3826829,0,0.9238797,0.3826829,0,0.7071068,0.7071068,0,0.7071068,0.7071068,0,0.3826829,0.9238797,0,0.3826829,0.9238797,0,0,1,0,0,1,0,0,1,0,0,1,0,-0.3826829,0.9238797,0,-0.3826829,0.9238797,0,-0.7071068,0.7071068,0,-0.7071068,0.7071068,0,-0.9238797,0.3826829,0,-0.9238797,0.3826829,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVMap"
+			MappingInformationType: "ByVertice"
+			ReferenceInformationType: "Direct"
+			UV: 0,1,0,0,0.0033,0,0.0033,1,0.0066,0,0.0066,1,0.009899,0,0.009899,1,0.013199,0,0.013199,1,0.207714,0,0.207714,1,0.211014,0,0.211014,1,0.214314,0,0.214314,1,0.217614,0,0.217614,1,0.220913,0,0.220913,1,0.5,0,0.5,1,0.5033,0,0.5033,1,0.5066,0,0.5066,1,0.509899,0,0.509899,1,0.513199,0,0.513199,1,0.707714,0,0.707714,1,0.711014,0,0.711014,1,0.714314,0,0.714314,1,0.717614,0,0.717614,1,0.720913,0,0.720913,1,0.720913,1,0.720913,0,0,0,0,1
+		}
+		LayerElementColor: 0 {
+			Version: 101
+			Name: "Color"
+			MappingInformationType: "ByVertice"
+			ReferenceInformationType: "Direct"
+			Colors:
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: 0
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement: {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement: {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+			LayerElement: {
+				Type: "LayerElementColor"
+				TypedIndex: 0
+			}
+			LayerElement: {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement: {
+				Type: "LayerElementTexture"
+				TypedIndex: 0
+			}
+		}
+	}
+	Material: "Material::FlexiblePlayingCards/Meshes/DeckSkirt", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties60: {
+			Property: "Diffuse", "ColorRGB", "", 1, 1, 1
+			Property: "Opacity", "double", "", 1
+			Property: "DiffuseColor", "ColorRGB", "", 1, 1, 1
+		}
+	}
+}
+; Object connections
+; ----------
+Connections: {
+	Connect: "OO", "Model::FlexiblePlayingCards/Meshes/DeckSkirt", "Model::Scene"
+	Connect: "OO", "Material::FlexiblePlayingCards/Meshes/DeckSkirt", "Model::FlexiblePlayingCards/Meshes/DeckSkirt"
+	Connect: "OP", "Texture::FlexiblePlayingCards/Meshes/DeckSkirt_MainTex", "Material::FlexiblePlayingCards/Meshes/DeckSkirt", "DiffuseColor"
+}
+GlobalSettings: {
+	Version: 1000
+	Properties60: {
+		Property: "UpAxis", "int", "", 1
+		Property: "UpAxisSign", "int", "", 1
+		Property: "FrontAxis", "int", "", 2
+		Property: "FrontAxisSign", "int", "", 1
+		Property: "CoordAxis", "int", "", 0
+		Property: "CoordAxisSign", "int", "", 1
+		Property: "UnitScaleFactor", "double", "", 100
+		Property: "OriginalUnitScaleFactor", "double", "", 1
+		Property: "OriginalUpAxis", "int", "", 1
+		Property: "OriginalUpAxisSign", "int", "", 1
+	}
+}
